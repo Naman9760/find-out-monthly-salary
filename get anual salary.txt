@@ -1,0 +1,33 @@
+
+{
+    class emp
+    {
+        string name = "naman";
+        int anualsalary = 250000;
+        int id = 12;
+        public void monthiysalary()
+        {
+            
+           
+            int month = this.anualsalary / 12;
+            Console.WriteLine(month);
+        }
+        public void getdetailemp()
+        {
+            this.monthiysalary();
+        }
+    }
+
+   
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            emp a = new emp();
+            a.getdetailemp();
+            
+        }
+        
+    }
+}
